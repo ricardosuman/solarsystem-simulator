@@ -1,0 +1,15 @@
+void resizeWindow(GLsizei w, GLsizei h);
+void mouseHandler(int button, int state, int x, int y);
+void keyboardHandler(unsigned char pressedKey, int mouseXPosition, int mouseYPosition);
+void nonAsciiKeyboardHandler(int pressedKey, int mouseXPosition, int mouseYPosition);
+void display();
+void delta_time();
+int cai_trinta();
+int cai_cinquenta();
+void estrela();
+void timer(int value);
+void setLight();
+void updateLight();
+void parseTexture(const char bitmapFilename[], const GLuint &textureName, bool hasAlpha);
+void parseAllTextures();
+void mouseMovement(int x, int y);
